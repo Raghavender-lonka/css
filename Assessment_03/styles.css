@@ -1,0 +1,123 @@
+body{
+    background-color: gray;
+}
+.welcome{
+    background-color: white;
+    color: red;
+    border: 5px solid red;
+    border-radius: 15px;
+    text-align: center;
+    width: 200px;
+    height: 150px;
+    padding-left: 100px;
+    padding-right: 100px;
+    box-shadow: 5px 5px 5px;
+    text-shadow: 1.5px 1.5px 1.5px black;
+    position: relative;
+    left: 35%;
+}
+.page-body{
+    display: flex;
+    justify-content:space-between;
+    border: 5px solid green;
+    border-radius:10px;
+    height: 720px;
+}
+.address,.image,.deal,.form{
+    background-color: white;
+    color: red;
+    border: 5px solid red;
+    border-radius: 15px;
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    padding: 50px;
+    box-shadow: 5px 5px 5px;
+    text-shadow: 1.5px 1.5px 1.5px black;
+}
+.address{
+    padding-bottom: 20px;
+}
+.image{
+    position: absolute;
+    left: 78%;
+    padding-bottom: 20px;
+}
+.deal{
+    position: absolute;
+    top: 620px;
+    padding-top: 20px;
+    
+}
+.form{
+    position: absolute;
+    left: 78%;
+    top:620px;
+    padding-top: 20px;
+    
+}
+.offers{
+    background-color: lightgreen;
+    color: red;
+    border: 5px solid red;
+    border-radius: 15px;
+    text-align: center;
+    width: 600px;
+    height:100px;
+    padding:0px 25px 30px 25px;
+    box-shadow: 5px 5px 5px;
+    position: fixed;
+    top: 480px;
+    right: 400px;
+    z-index: 1;
+    font-size: 22px;
+}
+.bottom{
+    display: flex;
+    background-color:green;
+    height: 250px;
+    width: 800px;
+    
+}
+.fruits,.vegetables{
+    width: 400px;
+    height: 250px;
+    border: 5px solid green;
+    background-color:yellow;
+    text-align: center;
+
+}
+.fruits{
+    border-left: 5px solid purple;
+    
+}
+.vegetables{
+    border-right: 5px solid purple;
+}
+.text{
+    background-color:green;
+    color: black;
+    width: 790px;
+    height:50px;
+    text-align: center;
+    /* padding: 30px; */
+    border-top: 5px solid purple;
+    border-left: 5px solid purple;
+    border-right: 5px solid purple;
+
+}
+.other{
+    width: 790px;
+    height: 250px;
+    border: 5px solid green;
+    border-left: 5px solid purple;
+    border-bottom: 5px solid purple;
+    background-color:yellow;
+    text-align: center;
+}
+.center{
+    position: absolute;
+    left: 350px;
+    top: 1000px;
+    padding-bottom: 250px;
+}
