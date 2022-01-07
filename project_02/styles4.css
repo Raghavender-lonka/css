@@ -148,18 +148,18 @@ body{
         left: 25px;
     }
     .addNewList{
-        display: flex;
+     display: flex;
         flex-direction: column;
         align-items: center;
         border: 2px solid tomato;
         border-radius: 10px;
         text-align: center;
-        width: 70vw;
+        width: 80vw;
         height: 35vh;
         z-index: 1;
         position:absolute;
-        top: 40vh;
-        left: 50px;
+        top: 250px;
+        left: 36px;
         background-color:white;
         box-sizing: border-box;
         padding: 26px 0px 20px 0px;
